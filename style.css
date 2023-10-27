@@ -1,17 +1,19 @@
-
-.body{
-    margin-inline: 50px;
+.body {
+  margin-inline: 50px;
 }
-.tabella{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+.tabella {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.card{
-    width: 20%;
-    display: flex;
-    flex-direction: column;
+.card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
 }
-.card img{
-    width: 100%;
+.card img {
+  width: 100%;
+}
+.Hidden {
+  visibility: hidden;
 }
