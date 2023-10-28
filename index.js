@@ -35,7 +35,7 @@ addClassA();
 // ESERCIZIO 11: Scrivi una funzione per aggiungere/togliere una classe CSS a tutte le immagini della tabella; questa classe deve modificare la visibilità/invisibilità dell'immagine
 
 function visibility() {
-  const img = document.querySelectorAll("tabella,img");
+  const img = document.querySelectorAll(".tabella img");
   for (i = 0; i < img.length; i++) {
     img[i].classList.toggle("Hidden");
   }
